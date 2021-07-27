@@ -1,5 +1,4 @@
-.home { 
-    background-image:'./images/logo-mercado-libre.svg';
+.home{ 
     background-color: #fff159;
     background-size: cover;
     background-repeat: no-repeat;
@@ -11,18 +10,27 @@
     box-sizing: border-box;
 }
 
-.home header nav li{
-    line-height: 30px;
-}
-
 .productos{
-    padding: 60px 20px;
+    padding: 50px 20px;
     width: 90%;
     margin: 16;
 }
 
+.productos img{ 
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    display: block;
+}
 .ofertas{
     padding: 60px 20px;
     width: 90%;
     margin: 16;
+}
+
+.ofertas img{ 
+    width: 300px;
+    padding: 10px;
+    margin: auto;
+    display: block;
 }
