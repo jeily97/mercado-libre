@@ -1,0 +1,25 @@
+.footer{
+    background-color: white;
+    margin: auto;
+}
+.footer article{
+    text-align: center;
+    color: #666;
+    margin: 10px;
+    padding: 0 75px 0 75px;
+    box-sizing: content-box;
+}
+.footer article div i{
+    font-size: 2em;
+    color: #1259c3;
+    margin: 10px;
+}
+footer article h4{
+    font-size: 18px;
+    text-align: center;
+    color: #666;
+}
+footer section{
+    color: #666;
+    margin: auto;
+}

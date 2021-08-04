@@ -1,0 +1,44 @@
+header{
+    background-color: #EAC926;
+    padding-bottom: 20px;
+}
+header div  a img {
+    width: 250px;
+    padding: 10;
+    margin: 5px;
+    margin-top: 40px;
+}
+header .barra-busqueda{
+    padding: 10px;
+}
+header .barra-busqueda a{
+    background-color: white;
+    border-color: black;
+}
+
+header .compra p i{
+    margin-bottom: 10px;
+    margin-left: 65px;
+}
+header .burger-menu{
+    width: 50px;
+    padding: 5px;
+    font-size: 32px;
+    background-color: #1259c3;
+    color:#ebebeb;
+    display:block;
+    margin: 0 auto 30px;
+    text-align: center;
+    border-radius: 5px;
+}
+header .burger-menu a{
+    color:#ebebeb;
+}
+
+header nav ul li {
+    font-style: normal;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+}

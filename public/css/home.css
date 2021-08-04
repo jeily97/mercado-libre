@@ -1,36 +1,71 @@
 .home{ 
-    background-color: #fff159;
+    background-color: #ebebeb;
     background-size: cover;
     background-repeat: no-repeat;
+    font-size: 12px;
+    margin: auto;
  }
-
-.home { 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+.home main{
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    margin: auto;
 }
-
-.productos{
-    padding: 50px 20px;
-    width: 90%;
-    margin: 16;
+.home section.productos{
+    text-align: center;
 }
+ /* Basado en tu ultima visita*/
 
+ section.productos{
+    width: 100%;
+    padding-bottom: 20px;
+}
+.productos p{
+    padding: 5px;
+    width: 39%;
+    margin: auto;
+}
 .productos img{ 
-    width: 300px;
-    padding: 10px;
+    width: 400px;
+    padding: 5px;
     margin: auto;
     display: block;
 }
-.ofertas{
-    padding: 60px 20px;
-    width: 90%;
-    margin: 16;
+.productos p.precios{
+    font-size: 18px;
+}
+.productos p.descuentos{
+    font-size: 16px;
+}
+.productos p.descripción{
+    font-size: 16px;
+}
+
+/* seccion de ofertas */
+
+section.ofertas{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 .ofertas img{ 
-    width: 300px;
-    padding: 10px;
+    width: 400px;
+    padding: 5px;
     margin: auto;
     display: block;
+}
+.ofertas p{
+    padding: 5px;
+    width: 39%;
+    margin: auto;
+}
+.ofertas p.precios{
+    font-size: 18px;
+}
+.ofertas p.descuentos{
+    font-size: 16px;
+}
+.ofertas p.descripción{
+    font-size: 16px;
 }
