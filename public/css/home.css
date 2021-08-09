@@ -26,7 +26,7 @@
     margin: auto;
 }
 .productos img{ 
-    width: 400px;
+    width: 200px;
     padding: 5px;
     margin: auto;
     display: block;
@@ -50,7 +50,7 @@ section.ofertas{
 }
 
 .ofertas img{ 
-    width: 400px;
+    width: 200px;
     padding: 5px;
     margin: auto;
     display: block;

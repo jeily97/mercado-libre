@@ -1,6 +1,6 @@
 .footer{
     background-color: white;
-    margin: auto;
+    margin: 0
 }
 .footer article{
     text-align: center;
@@ -22,4 +22,8 @@ footer article h4{
 footer section{
     color: #666;
     margin: auto;
+}
+footer div.copyright{
+    font-size: 12px;
+    margin: 20px 20px 20px 20px; 
 }

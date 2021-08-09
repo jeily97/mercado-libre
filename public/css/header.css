@@ -27,14 +27,15 @@ header .burger-menu{
     background-color: #1259c3;
     color:#ebebeb;
     display:block;
-    margin: 0 auto 30px;
+    margin: 30px auto 30px;
     text-align: center;
     border-radius: 5px;
 }
 header .burger-menu a{
     color:#ebebeb;
+    font-size: 24px;
+    border-radius: 5px;
 }
-
 header nav ul li {
     font-style: normal;
 }
