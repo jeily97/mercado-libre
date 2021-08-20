@@ -1,71 +1,96 @@
-.home{ 
-    background-color: #ebebeb;
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-size: 12px;
-    margin: auto;
- }
+.home {
+    font-family:'roboto' ;
+    }
 .home main{
+    width:90%;
+    margin:0 auto;
+}
+main section .banner{
+    width: 100%;
+}
+.home main section {
     text-align: center;
+    background-color: var(--colorGrisclaro);
+    padding-bottom: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.home main section h4.titulares{
+    text-align: left;
     font-size: 24px;
-    padding: 20px;
-    margin: auto;
+    width:100%;
+    color:var(--colorGrisoscuro);
 }
-.home section.productos{
-    text-align: center;
+/*tarjeta producto*/
+.home main.productos section article {
+    margin: 10px 0;
+    background-color: white;
 }
- /* Basado en tu ultima visita*/
+/*contenedor datos*/
+.home main.productos article .datos{
+    border-top:solid 1px var(--colorGrisclaro);
+    padding: 15px;
+    position:relative;
+    text-align: left;
+}
 
- section.productos{
-    width: 100%;
-    padding-bottom: 20px;
-}
-.productos p{
+.home main section article .datos i {
+
+    color: var(--colorVerde);
+    border:1px solid var(--colorVerde);
+    border-radius:50%;
     padding: 5px;
-    width: 39%;
-    margin: auto;
+    
+    font-size:16px;
+    
+    width:30px;
+
+    background-color: white;
+    display:block;
+    position: absolute;
+    right:20px;
+    top: -15px;
 }
-.productos img{ 
-    width: 200px;
-    padding: 5px;
-    margin: auto;
-    display: block;
+.home main article .datos .caja-precios{
+    display: flex;
+    justify-content: center;
 }
-.productos p.precios{
+/*precio*/
+.home main article .datos .precios{
     font-size: 18px;
+    flex-grow: 0.3;
 }
-.productos p.descuentos{
-    font-size: 16px;
+/*descuento*/
+.home main article .datos .descuento{
+    font-size:16px;
+    color:var(--colorVerde);
+    flex-grow: 0.7;
 }
-.productos p.descripción{
-    font-size: 16px;
+/*descripcion*/
+.home main article .datos .descripcion {
+    display: none;
+    color: var(--colorGrisoscuro);
+    padding-top: 10px;
+    
 }
 
-/* seccion de ofertas */
+@media (min-width: 768px) {
+    .home main section article {
+    width:40%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+    }
+.home main section article .datos .descripcion {
+    display:block;
+    }
+}
+@media (min-width: 1024px) {
+    .home main section article{
+    width:15%;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100)
+    }
+    .home main section article .datos .descripcion{
+    width:15%;
 
-section.ofertas{
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
-}
-
-.ofertas img{ 
-    width: 200px;
-    padding: 5px;
-    margin: auto;
-    display: block;
-}
-.ofertas p{
-    padding: 5px;
-    width: 39%;
-    margin: auto;
-}
-.ofertas p.precios{
-    font-size: 18px;
-}
-.ofertas p.descuentos{
-    font-size: 16px;
-}
-.ofertas p.descripción{
-    font-size: 16px;
+    }
 }

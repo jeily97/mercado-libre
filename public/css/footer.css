@@ -2,28 +2,33 @@
     background-color: white;
     margin: 0
 }
-.footer article{
+.footer div{
     text-align: center;
     color: #666;
     margin: 10px;
     padding: 0 75px 0 75px;
     box-sizing: content-box;
 }
-.footer article div i{
+.footer div i{
     font-size: 2em;
     color: #1259c3;
     margin: 10px;
 }
-footer article h4{
+.footer  h4{
     font-size: 18px;
     text-align: center;
     color: #666;
 }
-footer section{
+.footer  p{
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+}
+.footer div{
     color: #666;
     margin: auto;
 }
-footer div.copyright{
+.footer div.copyright{
     font-size: 12px;
     margin: 20px 20px 20px 20px; 
 }
