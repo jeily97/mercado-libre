@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registro</title>
+    <link rel="shortcut icon" href="images/logo.PNG" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body class="register-login">
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo-busqueda">
+
+            <!-- LOGO -->
+            
+            <div class="logo">
+                <a href="/"><img src="/images/logo-mercado-liebre.svg" alt="logo"></a>
+            </div>
+            
+            <!-- barra de busqueda -->
+            
+                <div class="busqueda">
+                    <form action="" method="POST">
+                        <input type="texto" placeholder="buscar productos, marcas" id="buscar" name="buscar"> <br>
+                            <button><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+
+            <!-- compra en cuotas-->
+
+                    <p class="comprar"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Tiendas Oficiales</a></li>
+                <li><a href="#">Vender</a></li>
+                <li><a href="#">Ayuda</a></li> <br>
+            </ul>
+            
+            <ul>
+                <li><a href="/register">Creá tu cuenta <i class="far fa-address-card"></i></a></li>
+                <li><a href="#">Ingresá <i class="fas fa-sign-in-alt"></i></a></li>
+                <li><a href="#">Más compras <i class="fas fa-shopping-basket"></i></a></li>
+            </ul>
+        </nav>
+
+        <div class="burger-menu">
+            <a href=""><i class="fas fa-bars"></i></a>
+        </div>
+
+</header>
+<main>
+
+    <div class="contenedor">
+
+        <form action="">
+
+            <!-- fullname -->
+            <div class="container-input">
+                <input type="text" placeholder="Nombre y Apellido" name= "fullname">
+            </div>
+
+            <!-- username -->
+            <div class="container-input">
+                <input type="text" placeholder="Nombre de usuari@" name= "username">
+            </div>
+
+            <h3> Fecha de nacimiento </h3>
+            <!-- nacimiento  -->
+            <div class="container-input">
+                <input type="date" name= "date">
+            </div>
+
+            <!-- domicilio -->
+            <div class="container-input">
+                <input type="text" placeholder="domicilio" name= "domicilio">
+            </div>
+
+        <!-- perfil -->
+
+            <h3> Perfil de usuario </h3>
+
+            <div class="container-input">
+                <input type="radio" name= "perfil" value="" id="comprador">
+                <label for="comprador">comprador</label>
+
+                <input type="radio" name= "perfil" value="" id="vendedor">
+                <label for="vendedor">Vendedor</label>
+            </div> 
+
+            <h3> Intereses </h3>
+
+            <div class="container-input">
+                <input type="checkbox" name= "intereses" value="electro" id="electro">
+                <label for="electro">Electro</label>
+            </div> 
+
+            <div class="container-input">
+                <input type="checkbox" name= "intereses" value="moda" id="moda">
+                <label for="moda">Moda</label>
+            </div> 
+
+            <div class="container-input">
+                <input type="checkbox" name= "intereses" value="hogar" id="hogar">
+                <label for="hogar">Hogar</label>
+            </div>
+
+            <div class="container-input">
+                <input type="checkbox" name= "intereses" value="jugueteria" id="jugueteria">
+                <label for="jugueteria">Jugueteria</label>
+            </div>
+
+            <div class="container-input">
+                <input type="checkbox" name= "Intereses" value="vida-sana" id="vida-sana">
+                <label for="vida-sana">Vida sana</label>
+            </div>
+
+            <!-- Foto de perfil -->
+            <h3> Foto de perfil</h3>
+            <div class="container-input">
+                <input type="file" name= "img">
+            </div>
+
+            <!-- Contraseña -->
+            <div class="container-input">
+                <input type="password" placeholder="Contraseña" name= "pass">
+            </div>
+
+            <!--  Repetir Contraseña -->
+            <div class="container-input">
+                <input type="password" placeholder="Repetir contraseña" name= "repeat-pass">
+            </div>
+
+            <!-- Botones -->
+            <div class="conteiner-buttons">
+                <button type="submit">Registrarse</button>
+                <button type="submit">Resetear</button>
+            </div>
+
+        </form>
+
+    </div>
+
+</main>
+    <footer class="footer">
+        <!--Pago con tarjeta-->
+        <div>
+            <i class="fas fa-credit-card"></i>
+        </div>
+            <h4>Pagá con tarejta o con efectivo</h4>
+            <p>Con Mercado Libre Cash, tenés cuotas sin interes con tarjeta o efectivo en
+            puntos de pago. ¡Y siempre seguro!</p>
+            <!--Envio -->
+        <div>
+            <i class="fas fa-gift"></i>
+        </div>
+            <h4>Envío gratis desde $2.500</h4>
+            <p>Solo por estar registrad@ enn Mercado Libre tenés envios gratis en miles de
+            producto. Es un beeficio de Mercado Puntos</p>
+            <!--Envio -->
+
+        <div>
+            <i class="fas fa-user-shield"></i>
+        </div>
+            <h4>Seguridad de principio a fin</h4>
+            <p>¿No te gusta? ¡Devolvelo! En Mercado Libre, no hay nada que no puedas hacer, porque estás siempre protequid@ </p>
+
+        <div class="copyright">
+            <h4>Copyright © 1999-2020 MercadoLibre S.R.L.</h4>
+        </div>
+
+    </footer>
+
+</body>
+
+
+</html>
