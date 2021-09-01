@@ -58,6 +58,8 @@
         </div>
 
 </header>
+
+<!-- MAIN -->
 <main>
 
     <div class="contenedor">
@@ -66,23 +68,28 @@
 
             <!-- fullname -->
             <div class="container-input">
-                <input type="text" placeholder="Nombre y Apellido" name= "fullname">
+                <input class="text" type="text" placeholder="Nombre y Apellido" name= "fullname">
             </div>
 
             <!-- username -->
             <div class="container-input">
-                <input type="text" placeholder="Nombre de usuari@" name= "username">
+                <input class="text" type="text" placeholder="Nombre de usuari@" name= "username">
+            </div>
+
+            <!-- Email -->
+            <div class="container-input">
+                <input class="text" type="email" placeholder="email" name= "email" >
             </div>
 
             <h3> Fecha de nacimiento </h3>
             <!-- nacimiento  -->
             <div class="container-input">
-                <input type="date" name= "date">
+                <input class="text" type="date" name= "date">
             </div>
 
             <!-- domicilio -->
             <div class="container-input">
-                <input type="text" placeholder="domicilio" name= "domicilio">
+                <input class="text" type="text" placeholder="domicilio" name= "domicilio">
             </div>
 
         <!-- perfil -->
@@ -90,37 +97,37 @@
             <h3> Perfil de usuario </h3>
 
             <div class="container-input">
-                <input type="radio" name= "perfil" value="" id="comprador">
+                <input class="radio" type="radio" name= "perfil" value="" id="comprador">
                 <label for="comprador">comprador</label>
 
-                <input type="radio" name= "perfil" value="" id="vendedor">
+                <input class="radio" type="radio" name= "perfil" value="" id="vendedor">
                 <label for="vendedor">Vendedor</label>
             </div> 
 
             <h3> Intereses </h3>
 
             <div class="container-input">
-                <input type="checkbox" name= "intereses" value="electro" id="electro">
+                <input class="check" type="checkbox" name= "intereses" value="electro" id="electro">
                 <label for="electro">Electro</label>
             </div> 
 
             <div class="container-input">
-                <input type="checkbox" name= "intereses" value="moda" id="moda">
+                <input class="check" type="checkbox" name= "intereses" value="moda" id="moda">
                 <label for="moda">Moda</label>
             </div> 
 
             <div class="container-input">
-                <input type="checkbox" name= "intereses" value="hogar" id="hogar">
+                <input class="check" type="checkbox" name= "intereses" value="hogar" id="hogar">
                 <label for="hogar">Hogar</label>
             </div>
 
             <div class="container-input">
-                <input type="checkbox" name= "intereses" value="jugueteria" id="jugueteria">
+                <input class="check" type="checkbox" name= "intereses" value="jugueteria" id="jugueteria">
                 <label for="jugueteria">Jugueteria</label>
             </div>
 
             <div class="container-input">
-                <input type="checkbox" name= "Intereses" value="vida-sana" id="vida-sana">
+                <input class="check" type="checkbox" name= "Intereses" value="vida-sana" id="vida-sana">
                 <label for="vida-sana">Vida sana</label>
             </div>
 
@@ -132,18 +139,18 @@
 
             <!-- Contraseña -->
             <div class="container-input">
-                <input type="password" placeholder="Contraseña" name= "pass">
+                <input class="text" type="password" placeholder="Contraseña" name= "pass" minlength="8">
             </div>
 
             <!--  Repetir Contraseña -->
             <div class="container-input">
-                <input type="password" placeholder="Repetir contraseña" name= "repeat-pass">
+                <input class="text" type="password" placeholder="Repetir contraseña" name= "repeat-pass" minlength="8">
             </div>
 
             <!-- Botones -->
-            <div class="conteiner-buttons">
-                <button type="submit">Registrarse</button>
-                <button type="submit">Resetear</button>
+            <div class="container-buttons">
+                <button class="btn-celeste" type="submit">Registrarse</button>
+                <button class="btn-rojo" type="reset">Resetear</button>
             </div>
 
         </form>
